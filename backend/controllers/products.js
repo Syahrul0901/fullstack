@@ -1,3 +1,3 @@
-export const getAllproducts = (req, res) => {
+export const getAllProducts = (req, res) => {
   res.send('welcome');
 };

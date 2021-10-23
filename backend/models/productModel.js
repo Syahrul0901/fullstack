@@ -3,7 +3,7 @@ import db from '../config/database.js';
 
 const { DataTypes } = Sequelize;
 
-const product = db.define(
+const Product = db.define(
   'products',
   {
     title: {
@@ -17,4 +17,4 @@ const product = db.define(
     freezeTableName: true,
   }
 );
-export default product;
+export default Product;
