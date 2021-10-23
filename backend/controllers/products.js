@@ -1,3 +1,3 @@
-export const getAllproducts = async (req, res) => {
+export const getAllproducts = (req, res) => {
   res.send('welcome');
 };
