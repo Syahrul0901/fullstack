@@ -6,15 +6,9 @@ const { DataTypes } = Sequelize;
 const Product = db.define(
   'products',
   {
-    title: {
-      type: DataTypes.STRING,
-    },
-    price: {
-      type: DataTypes.DAUBLE,
-    },
+    title: { type: DataTypes.STRING },
+    price: { type: DataTypes.DAUBLE },
   },
-  {
-    freezeTableName: true,
-  }
+  { freezeTableName: true }
 );
 export default Product;
