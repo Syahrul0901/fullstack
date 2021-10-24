@@ -11,4 +11,5 @@ const Product = db.define(
   },
   { freezeTableName: true }
 );
+
 export default Product;
